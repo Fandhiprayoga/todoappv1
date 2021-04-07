@@ -1,38 +1,64 @@
+
+.Main-App {
+  background-color: rgb(238, 207, 211)  ;
+  height: 100vh;
+  min-height: 100%;
+  overflow: auto;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: white;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.TextField {
+  width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Button {
+  height:55px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.List-todo {
+  text-align: left;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  background: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 11px;
 }
 
-.App-link {
-  color: #61dafb;
+.List-todo h1{
+  text-align: left;
+  margin-left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.List-todo h3{
+  margin-left: 30px;
+  font-weight: 200;
+  display: inline;
+  
 }
+
+.List-todo Button{
+  display: inline;
+  float: right;
+  width: 20px;
+  height: 50px;
+  font-weight: 900;
+}
+
+
+
